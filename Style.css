@@ -10,3 +10,8 @@
 .body {
     background: #f4f0ec;
    }
+
+.text-Little{
+    color: grey;
+    font-size: 5px;
+    }
