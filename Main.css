@@ -60,7 +60,7 @@ img{
 header, footer{
     width: 100%;
     background-color: #e78282;
-    height: 30px;
+    min-height: 30px;
     float: left;
 }
 
@@ -107,7 +107,7 @@ footer{
 }
 
 footer, #pagewrap:after{
-    height: 10px;
+    min-height: 10px;
 }
 
 #pagewrap{
