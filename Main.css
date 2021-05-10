@@ -81,8 +81,8 @@ footer{
     color: #fff;
     font-family: Comic Sans MS, sans-serif;
     margin-top: 2px; 
-    margin-left: 253px;    
-    margin-right: 253px; 
+    text-align: center;
+    display: block;
 }
 
 #instalogo{
