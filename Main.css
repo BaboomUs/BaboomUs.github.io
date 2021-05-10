@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    width: 98%;
+    height: 100%;
+    background-color: #f4f0ec;
+    color: black;
+    font-family: Comic Sans MS, sans-serif;
+    font-size: 1em;
+    line-height: 135%;
+}
+
+a{
+    color: gray;
+    text-decoration: none;
+    transition: ease;
+    -moz-transition: ease;
+    -webkit-transition: ease;
+    -ms-transition: ease;
+}
+
+hr{
+    background-color: rgb(177, 99, 99);
+    height: 3px;
+    border: none;
+}
+
+a:hover{
+    color: rgb(102, 101, 101);
+    text-decoration: none;
+    transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+}
+
+::selection{background: gray; color: #f4f0ec;}
+::-moz-selection{background: #d17575; color: #f4f0ec;}
+::-webkit-selection{background: #d17575; color: #f4f0ec;}
+::-ms-selection{background: #d17575; color: #f4f0ec;}
+
+a:active{
+    color: gray;
+}
+
+img{
+    max-width: 350%;
+    height: auto;
+}
+
+header, footer{
+    width: 100%;
+    background-color: #e78282;
+    min-height: 30px;
+    float: left;
+}
+
+header{
+    border-bottom: 4px solid rgb(177, 99, 99);
+    padding: 1%;
+}
+
+footer{
+    border-top: 4px solid rgb(177, 99, 99);
+    margin-top: 30px;
+    padding: 1%;
+}
+
+#logo{
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+    font-family: Comic Sans MS, sans-serif;
+    float: left;
+    margin-top: 2px; 
+    margin-left: 253px;    
+    margin-right: 253px; 
+    max-width: 100%;
+}
+
+#instalogo{
+    float: left;
+    width: 4%;
+}
+
+#whlogo{
+    float: right;
+    width: 4%;
+}
+
+#copyright{
+    font-size: 1.5em;
+    color: #fff;
+    font-family: Comic Sans MS, sans-serif;
+}
+
+#pagewrap:after{
+    content: "";
+    display: block;
+}
+
+footer, #pagewrap:after{
+    height: 10px;
+}
+
+#pagewrap{
+    min-height: 90%;
+    margin-bottom: -10px;
+}
+
+#maintitle{
+    color: rgb(58, 49, 49);
+    font-family: Comic Sans MS, sans-serif;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+#wrapper{
+    float: left;
+    width: 100%;
+}
+
+#wrapper #articles{
+    float: left;
+    width: 70%;
+    margin-left: 15.52%;
+}
+
+#wrapper #articles article{
+    float: left;
+    width: 31.33333333%;
+    border: 3px solid #d17575;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-right: 2%;
+    min-height: 400px;
+}
+
+#wrapper #articles article img{
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    margin-top: -5px;
+    margin-bottom: 0px;
+}
+
+#wrapper #articles article h2{
+    width: 100%;
+    height: 150%;
+    color: #fff;
+    font-family: Comic Sans MS, sans-serif;
+    margin-top:0px;
+    margin-bottom: 0px;
+    background-color: #e78282;
+}
+
+.clear{
+    clear: both;
+}
