@@ -140,7 +140,7 @@ footer, #pagewrap:after{
     box-sizing: border-box;
     border-radius: 3px;
     margin-right: 5%;
-    max-height: 400px;
+    min-height: 400px;
 }
 
 #wrapper #articles article img{
