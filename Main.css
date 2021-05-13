@@ -66,6 +66,7 @@ header, footer{
     background-color: #e78282;
     height: 100px;
     float: left;
+    background-size: contain;
 }
 
 header{
