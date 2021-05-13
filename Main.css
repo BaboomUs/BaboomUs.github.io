@@ -64,7 +64,7 @@ img{
 header, footer{
     width: 100%;
     background-color: #e78282;
-    height: 100px;
+    height: 100vw;
     float: left;
 }
 
@@ -80,7 +80,7 @@ footer{
 }
 
 #logo{
-    font-size: 7em;
+    font-size: 7vw;
     font-weight: bold;
     color: #fff;
     font-family: Comic Sans MS, sans-serif;
@@ -103,7 +103,7 @@ footer{
 }
 
 footer, #pagewrap:after{
-    height: 20px;
+    height: 20vw;
 }
 
 #pagewrap{
