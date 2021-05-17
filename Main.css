@@ -11,7 +11,7 @@ html{
     width: 100%;
 }
 
-@media (min-width: 751px){
+@media (min-width: 800px){
 body{
     width: 96%;
     height: 100%;
@@ -23,7 +23,7 @@ body{
 }
 }
 
-@media (max-width: 750px){
+@media (max-width: 799px){
     body{
         width: 98%;
         height: 100%;
@@ -57,7 +57,7 @@ a:active{
     color: gray;
 }
 
-@media (min-width: 751px){
+@media (min-width: 800px){
 #Main-Title{
     color: rgb(58, 49, 49);
     font-family: Comic Sans MS, sans-serif;
@@ -68,7 +68,7 @@ a:active{
 }
 }
 
-@media (max-width: 750px){
+@media (max-width: 799px){
     #Main-Title{
         color: rgb(58, 49, 49);
         font-family: Comic Sans MS, sans-serif;
@@ -80,7 +80,7 @@ a:active{
     }
     }
 
-@media (min-width: 751px){
+@media (min-width: 800px){
 .Br-Text {
     display: block;
     margin-bottom: 1.5em;
@@ -97,7 +97,7 @@ a:active{
 }
 }
 
-@media (max-width: 750px){
+@media (max-width: 799px){
     .Br-Text {
         display: block;
         margin-bottom: 0.5em;
@@ -115,7 +115,7 @@ a:active{
     }
 /* Header and Footer */
 
-@media (min-width: 751px){
+@media (min-width: 800px){
 header, footer{
     width: 100%;
     background-color: #e78282;
@@ -124,7 +124,7 @@ header, footer{
 }
 }
 
-@media (max-width: 750px){
+@media (max-width: 799px){
     header, footer{
         width: 100%;
         background-color: #e78282;
@@ -133,21 +133,21 @@ header, footer{
     }
     }
 
-@media (min-width: 751px){
+@media (min-width: 800px){
 header{
     border-bottom: 3px solid rgb(177, 99, 99);
     padding: 2%;
 }
 }
 
-@media (max-width: 750px){
+@media (max-width: 799px){
     header{
         border-bottom: 1.5px solid rgb(177, 99, 99);
         padding: 1%;
     }
     }
 
-@media (min-width: 751px){
+@media (min-width: 800px){
 footer{
     border-top: 3px solid rgb(177, 99, 99);
     margin-top: 10px;
@@ -155,7 +155,7 @@ footer{
 }
 }
 
-@media (max-width: 750px){
+@media (max-width: 799px){
     footer{
         border-top: 1.5px solid rgb(177, 99, 99);
         margin-top: 10px;
@@ -177,7 +177,7 @@ footer, #page-wrap:after{
     margin-bottom: -10px;
 }
 
-@media (min-width: 751px){
+@media (min-width: 800px){
 #Header-Logo{
     font-size: 4em;
     font-weight: bold;
@@ -190,7 +190,7 @@ footer, #page-wrap:after{
 }
 }
 
-@media (max-width: 750px){
+@media (max-width: 799px){
     #Header-Logo{
         font-size: 1em;
         font-weight: bold;
@@ -203,7 +203,7 @@ footer, #page-wrap:after{
     }
     }
 
-@media (min-width: 751px){
+@media (min-width: 800px){
 #copyright{
     font-size: 1.75em;
     color: #fff;
@@ -213,7 +213,7 @@ footer, #page-wrap:after{
 }
 }
 
-@media (max-width: 750px){
+@media (max-width: 799px){
     #copyright{
         font-size: 0.6em;
         color: #fff;
@@ -238,14 +238,14 @@ footer, #page-wrap:after{
     margin-top: 30px;
 }
 
-@media (min-width: 751px){
+@media (min-width: 800px){
 .Articles1{
     margin-bottom: 30px;
     margin-top: 22px;
 }
 }
 
-@media (max-width: 750px){
+@media (max-width: 799px){
     .Articles1{
         margin-bottom: 6px;
         margin-top: -30px;
@@ -263,7 +263,7 @@ footer, #page-wrap:after{
     margin-left: 12.5%;
 }
 
-@media (min-width: 751px){
+@media (min-width: 800px){
 #wrapper #articles article{
     float: left;
     width: 31.33333%;
@@ -277,7 +277,7 @@ footer, #page-wrap:after{
 }
 }
 
-@media (max-width: 750px){
+@media (max-width: 799px){
     #wrapper #articles article{
         float: left;
         width: 31.33333%;
@@ -290,7 +290,7 @@ footer, #page-wrap:after{
     }
     }
 
-@media (min-width: 751px){
+@media (min-width: 800px){
 #wrapper #articles article img{
     width: 100%;
     height: auto;
@@ -300,7 +300,7 @@ footer, #page-wrap:after{
 }
 }
 
-@media (max-width: 750px){
+@media (max-width: 799px){
     #wrapper #articles article img{
         width: 100%;
         height: auto;
@@ -310,7 +310,7 @@ footer, #page-wrap:after{
     }
     }
 
-@media (min-width: 751px){
+@media (min-width: 800px){
 #wrapper #articles article p{
     width: 100%;
     font-size: 2em;
@@ -327,7 +327,7 @@ footer, #page-wrap:after{
 }
 }
 
-@media (max-width: 750px){
+@media (max-width: 799px){
     #wrapper #articles article p{
         width: 100%;
         height: auto;
@@ -350,7 +350,7 @@ footer, #page-wrap:after{
 
 /* Buy pages styles */
 
-@media (min-width: 751px){
+@media (min-width: 800px){
 #back-page{
     color: white;
     font-size: 3em;
@@ -358,7 +358,7 @@ footer, #page-wrap:after{
 }
 }
 
-@media (max-width: 750px){
+@media (max-width: 799px){
     #back-page{
         color: white;
         font-size: 0.85em;
@@ -366,7 +366,7 @@ footer, #page-wrap:after{
     }
     }
 
-@media (min-width: 751px){
+@media (min-width: 800px){
 #index-Title{
     color: rgb(58, 49, 49);
     font-family: Comic Sans MS, sans-serif;
@@ -379,7 +379,7 @@ footer, #page-wrap:after{
 }
 }
 
-@media (max-width: 750px){
+@media (max-width: 799px){
     #index-Title{
         color: rgb(58, 49, 49);
         font-family: Comic Sans MS, sans-serif;
@@ -392,7 +392,7 @@ footer, #page-wrap:after{
     }
     }
 
-@media (min-width: 751px){
+@media (min-width: 800px){
 #index-Text{
     color: rgb(58, 49, 49);
     font-family: Comic Sans MS, sans-serif;
@@ -405,7 +405,7 @@ footer, #page-wrap:after{
 }
 }
 
-@media (max-width: 750px){
+@media (max-width: 799px){
     #index-Text{
         color: rgb(58, 49, 49);
         font-family: Comic Sans MS, sans-serif;
@@ -418,7 +418,7 @@ footer, #page-wrap:after{
     }
     }
 
-@media (min-width: 751px){
+@media (min-width: 800px){
 #index-Image{
     width: 300px;
     height: auto;
@@ -430,7 +430,7 @@ footer, #page-wrap:after{
 }
 }
 
-@media (max-width: 750px){
+@media (max-width: 799px){
     #index-Image{
         width: 100px;
         height: auto;
@@ -442,7 +442,7 @@ footer, #page-wrap:after{
     }
     }
 
-@media (min-width: 751px){
+@media (min-width: 800px){
 #index-Copyright{
     font-size: 2.5em;
     color: #fff;
@@ -452,7 +452,7 @@ footer, #page-wrap:after{
 }
 }
 
-@media (max-width: 750px){
+@media (max-width: 799px){
     #index-Copyright{
         font-size: 0.75em;
         color: #fff;
@@ -462,13 +462,13 @@ footer, #page-wrap:after{
     }
     }
 
-@media (min-width: 751px){
+@media (min-width: 800px){
     .index-Down{
         margin-bottom: 30px;
     }
 }
 
-@media (max-width: 750px){
+@media (max-width: 799px){
     .index-Down{
         margin-bottom: 5px;
     }
