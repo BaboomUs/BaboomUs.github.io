@@ -195,8 +195,8 @@ footer, #page-wrap:after{
 
 #back-page{
     color: white;
-    font-size: 3em;
-    float: left;
+    font-size: 2.5em;
+    Text-align: center;
 }
 
 #index-Title{
@@ -214,7 +214,7 @@ footer, #page-wrap:after{
     color: rgb(58, 49, 49);
     font-family: Gill Sans, sans-serif;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 0.75em;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -232,7 +232,7 @@ footer, #page-wrap:after{
 }
 
 #index-Copyright{
-    font-size: 2.5em;
+    font-size: 1.75em;
     color: #fff;
     font-family: Gill Sans, sans-serif;
     text-align: center;
