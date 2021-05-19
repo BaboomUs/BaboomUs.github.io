@@ -11,7 +11,6 @@ html{
     width: 100%;
 }
 
-@media (min-width: 1200px){
 body{
     width: 96%;
     height: 100%;
@@ -21,19 +20,6 @@ body{
     font-size: 1em;
     line-height: 135%;
 }
-}
-
-@media (max-width: 1199px){
-    body{
-        width: 98%;
-        height: 100%;
-        background-color: #f4f0ec;
-        color: black;
-        font-family: Comic Sans MS, sans-serif;
-        font-size: 1em;
-        line-height: 135%;
-    }
-    }
 
 a{
     color: gray;
@@ -57,7 +43,6 @@ a:active{
     color: gray;
 }
 
-@media (min-width: 1200px){
 #Main-Title{
     color: rgb(58, 49, 49);
     font-family: Comic Sans MS, sans-serif;
@@ -66,21 +51,7 @@ a:active{
     margin-right: auto;
     text-align: center;
 }
-}
 
-@media (max-width: 1199px){
-    #Main-Title{
-        color: rgb(58, 49, 49);
-        font-family: Comic Sans MS, sans-serif;
-        font-size: 0.5em;
-        margin-top: -20px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-    }
-    }
-
-@media (min-width: 1200px){
 .Br-Text {
     display: block;
     margin-bottom: 1.5em;
@@ -95,73 +66,26 @@ a:active{
     display: block;
     margin-top: -2em;
 }
-}
 
-@media (max-width: 1199px){
-    .Br-Text {
-        display: block;
-        margin-bottom: 0.5em;
-     }
-
-     .Br-Text1 {
-        display: block;
-        margin-bottom: -2em;
-     }
-
-     .Br-Text2 {
-        display: block;
-        margin-top: -1em;
-    }
-    }
 /* Header and Footer */
 
-@media (min-width: 1200px){
 header, footer{
     width: 100%;
     background-color: #e78282;
     min-height: 55px;
     float: left;
 }
-}
 
-@media (max-width: 1199px){
-    header, footer{
-        width: 100%;
-        background-color: #e78282;
-        min-height: 20px;
-        float: left;
-    }
-    }
-
-@media (min-width: 1200px){
 header{
     border-bottom: 3px solid rgb(177, 99, 99);
     padding: 2%;
 }
-}
 
-@media (max-width: 1199px){
-    header{
-        border-bottom: 1.5px solid rgb(177, 99, 99);
-        padding: 1%;
-    }
-    }
-
-@media (min-width: 1200px){
 footer{
     border-top: 3px solid rgb(177, 99, 99);
     margin-top: 10px;
     padding: 2%;
 }
-}
-
-@media (max-width: 1199px){
-    footer{
-        border-top: 1.5px solid rgb(177, 99, 99);
-        margin-top: 10px;
-        padding: 1%;
-    }
-    }
 
 #page-wrap:after{
     content: "";
@@ -177,7 +101,6 @@ footer, #page-wrap:after{
     margin-bottom: -10px;
 }
 
-@media (min-width: 1200px){
 #Header-Logo{
     font-size: 4em;
     font-weight: bold;
@@ -188,22 +111,7 @@ footer, #page-wrap:after{
     text-align: center;
     display: block;
 }
-}
 
-@media (max-width: 1199px){
-    #Header-Logo{
-        font-size: 1em;
-        font-weight: bold;
-        color: #fff;
-        font-family: Comic Sans MS, sans-serif;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        display: block;
-    }
-    }
-
-@media (min-width: 1200px){
 #copyright{
     font-size: 1.75em;
     color: #fff;
@@ -211,17 +119,6 @@ footer, #page-wrap:after{
     text-align: center;
     display: block;
 }
-}
-
-@media (max-width: 1199px){
-    #copyright{
-        font-size: 0.6em;
-        color: #fff;
-        font-family: Comic Sans MS, sans-serif;
-        text-align: center;
-        display: block;
-    }
-    }
 
 /* Selectors */
 
@@ -238,24 +135,15 @@ footer, #page-wrap:after{
     margin-top: 30px;
 }
 
-@media (min-width: 1200px){
 .Articles1{
     margin-bottom: 30px;
     margin-top: 22px;
 }
-}
 
-@media (max-width: 1199px){
-    .Articles1{
-        margin-bottom: 6px;
-        margin-top: -30px;
-    }
-
-    .Articles2{
+.Articles2{
         margin-bottom: 6px;
         margin-top: -1px;
-    }
-    }
+}
 
 #wrapper #articles{
     float: left;
@@ -263,10 +151,9 @@ footer, #page-wrap:after{
     margin-left: 12.5%;
 }
 
-@media (min-width: 1200px){
 #wrapper #articles article{
     float: left;
-    width: 99%;
+    width: 100%;
     height: auto;
     border: 3px solid #d17575;
     background-color: #e78282;
@@ -275,22 +162,7 @@ footer, #page-wrap:after{
     margin-right: 2%;
     min-height: 400px;
 }
-}
 
-@media (max-width: 1199px){
-    #wrapper #articles article{
-        float: left;
-        width: 99%;
-        border: 1.5px solid #d17575;
-        background-color: #e78282;
-        box-sizing: border-box;
-        border-radius: 5px;
-        margin-right: 2%;
-        min-height: 80px;
-    }
-    }
-
-@media (min-width: 1200px){
 #wrapper #articles article img{
     width: 100%;
     height: auto;
@@ -298,19 +170,7 @@ footer, #page-wrap:after{
     margin-top: 100px;
     margin-bottom: -3px;
 }
-}
 
-@media (max-width: 1199px){
-    #wrapper #articles article img{
-        width: 100%;
-        height: auto;
-        border-radius: 5px;
-        margin-top: 5px;
-        margin-bottom: -4.3px;
-    }
-    }
-
-@media (min-width: 1200px){
 #wrapper #articles article p{
     width: 100%;
     font-size: 2em;
@@ -325,24 +185,6 @@ footer, #page-wrap:after{
     margin-right: auto;
     text-align: center;
 }
-}
-
-@media (max-width: 1199px){
-    #wrapper #articles article p{
-        width: 100%;
-        height: auto;
-        font-size: 0.4em;
-        color: #fff;
-        font-family: Comic Sans MS, sans-serif;
-        margin-top: 0.5px;
-        margin-bottom: 0px;
-        background-color: #e78282;
-        border-radius: 5px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-    }
-    }
 
 .clear{
     clear: both;
@@ -350,23 +192,12 @@ footer, #page-wrap:after{
 
 /* Buy pages styles */
 
-@media (min-width: 1200px){
 #back-page{
     color: white;
     font-size: 3em;
     float: left;
 }
-}
 
-@media (max-width: 1199px){
-    #back-page{
-        color: white;
-        font-size: 0.85em;
-        float: left;
-    }
-    }
-
-@media (min-width: 1200px){
 #index-Title{
     color: rgb(58, 49, 49);
     font-family: Comic Sans MS, sans-serif;
@@ -377,22 +208,7 @@ footer, #page-wrap:after{
     text-align: center;
     margin-top: 5px;
 }
-}
 
-@media (max-width: 1199px){
-    #index-Title{
-        color: rgb(58, 49, 49);
-        font-family: Comic Sans MS, sans-serif;
-        font-weight: bold;
-        font-size: 0.6em;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        margin-top: -15px;
-    }
-    }
-
-@media (min-width: 1200px){
 #index-Text{
     color: rgb(58, 49, 49);
     font-family: Comic Sans MS, sans-serif;
@@ -403,22 +219,7 @@ footer, #page-wrap:after{
     text-align: center;
     margin-top: 10px;
 }
-}
 
-@media (max-width: 1199px){
-    #index-Text{
-        color: rgb(58, 49, 49);
-        font-family: Comic Sans MS, sans-serif;
-        font-weight: bold;
-        font-size: 0.2em;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        margin-top: -5px;
-    }
-    }
-
-@media (min-width: 1200px){
 #index-Image{
     width: 300px;
     height: auto;
@@ -428,21 +229,7 @@ footer, #page-wrap:after{
     text-align: center;
     display: block; 
 }
-}
 
-@media (max-width: 1199px){
-    #index-Image{
-        width: 100px;
-        height: auto;
-        margin-top: 5px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        display: block; 
-    }
-    }
-
-@media (min-width: 1200px){
 #index-Copyright{
     font-size: 2.5em;
     color: #fff;
@@ -450,26 +237,7 @@ footer, #page-wrap:after{
     text-align: center;
     display: block;
 }
-}
 
-@media (max-width: 1199px){
-    #index-Copyright{
-        font-size: 0.75em;
-        color: #fff;
-        font-family: Comic Sans MS, sans-serif;
-        text-align: center;
-        display: block;
-    }
-    }
-
-@media (min-width: 1200px){
-    .index-Down{
+.index-Down{
         margin-bottom: 30px;
-    }
-}
-
-@media (max-width: 1199px){
-    .index-Down{
-        margin-bottom: 5px;
-    }
 }
