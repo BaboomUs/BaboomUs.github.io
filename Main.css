@@ -54,12 +54,12 @@ a:active{
 
 .Br-Text {
     display: block;
-    margin-bottom: 1.25em;
+    margin-bottom: 1em;
  }
 
  .Br-Text1 {
     display: block;
-    margin-top: 1em;
+    margin-top: 0.75em;
 }
 
 .Br-Text2 {
@@ -106,6 +106,7 @@ footer, #page-wrap:after{
     font-weight: bold;
     color: #fff;
     font-family: Gill Sans, sans-serif;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
