@@ -196,7 +196,8 @@ footer, #page-wrap:after{
 #back-page{
     color: white;
     font-size: 2.5em;
-    Text-align: center;
+    text-align: center;
+    display: block; 
 }
 
 #index-Title{
