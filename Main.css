@@ -16,7 +16,7 @@ body{
     height: 100%;
     background-color: #f4f0ec;
     color: black;
-    font-family: Comic Sans MS, sans-serif;
+    font-family: Gill Sans, sans-serif;
     font-size: 1em;
     line-height: 135%;
 }
@@ -45,7 +45,7 @@ a:active{
 
 #Main-Title{
     color: rgb(58, 49, 49);
-    font-family: Comic Sans MS, sans-serif;
+    font-family: Gill Sans, sans-serif;
     font-size: 1.75em;
     margin-left: auto;
     margin-right: auto;
@@ -105,7 +105,7 @@ footer, #page-wrap:after{
     font-size: 4em;
     font-weight: bold;
     color: #fff;
-    font-family: Comic Sans MS, sans-serif;
+    font-family: Gill Sans, sans-serif;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -115,7 +115,7 @@ footer, #page-wrap:after{
 #copyright{
     font-size: 1.75em;
     color: #fff;
-    font-family: Comic Sans MS, sans-serif;
+    font-family: Gill Sans, sans-serif;
     text-align: center;
     display: block;
 }
@@ -176,7 +176,7 @@ footer, #page-wrap:after{
     font-size: 2em;
     height: auto;
     color: #fff;
-    font-family: Comic Sans MS, sans-serif;
+    font-family: Gill Sans, sans-serif;
     margin-top: 10px;
     margin-bottom: 0px;
     background-color: #e78282;
@@ -200,7 +200,7 @@ footer, #page-wrap:after{
 
 #index-Title{
     color: rgb(58, 49, 49);
-    font-family: Comic Sans MS, sans-serif;
+    font-family: Gill Sans, sans-serif;
     font-weight: bold;
     font-size: 1.75em;
     margin-left: auto;
@@ -211,7 +211,7 @@ footer, #page-wrap:after{
 
 #index-Text{
     color: rgb(58, 49, 49);
-    font-family: Comic Sans MS, sans-serif;
+    font-family: Gill Sans, sans-serif;
     font-weight: bold;
     font-size: 1em;
     margin-left: auto;
@@ -233,7 +233,7 @@ footer, #page-wrap:after{
 #index-Copyright{
     font-size: 2.5em;
     color: #fff;
-    font-family: Comic Sans MS, sans-serif;
+    font-family: Gill Sans, sans-serif;
     text-align: center;
     display: block;
 }
