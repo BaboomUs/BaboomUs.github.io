@@ -266,7 +266,7 @@ footer, #page-wrap:after{
 @media (min-width: 1200px){
 #wrapper #articles article{
     float: left;
-    width: 31.33333%;
+    width: 100%;
     height: auto;
     border: 3px solid #d17575;
     background-color: #e78282;
@@ -280,7 +280,7 @@ footer, #page-wrap:after{
 @media (max-width: 1199px){
     #wrapper #articles article{
         float: left;
-        width: 31.33333%;
+        width: 100%;
         border: 1.5px solid #d17575;
         background-color: #e78282;
         box-sizing: border-box;
